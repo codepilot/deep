@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+body>div.border {
+    width: 100vw;
+    height: 100vh;
+    background: #CCC;
+    border-radius: 1in;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.border>div.inner {
+    position: fixed;
+    left: 5vw;
+    top: 5vh;
+    width: 90vw;
+    height: 90vh;
+    background: #fff;
+    border-radius: 1in;
+}
+
+.inner>div.main { 
+    position: fixed;
+    left: 8vw;
+    top: 8vh;
+    width: 84vw;
+    height: 84vh;
+}
